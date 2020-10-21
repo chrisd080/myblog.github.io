@@ -1,0 +1,170 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+section {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+img {
+	max-width: 1500px;
+}
+
+
+header {
+	background-color: darkOrange;
+	padding-top : 2px;
+	padding-bottom: 20px;
+}
+
+    
+#slideshow { 
+	margin-left: -215px;
+	position: relative; 
+	width: 1415px; 
+	height: 685px; 
+	padding: 10px; 
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);    
+	background-color: rgb(0, 0, 0);
+	}
+	
+
+#slideshow > div { 
+	margin-top: -7px;
+	margin-left: 245px;
+	position: absolute; 
+	top: 10px; 
+	left: 10px; 
+	right: 10px; 
+	bottom: 10px; 
+	}
+
+
+#container {
+	height: 210px;
+	margin-top: -50px;
+}
+
+
+nav {
+	width: 8%;
+	height: 177px;
+	float: right;
+	margin-top: -150px;
+	margin-right: 335px;
+	border: 5px solid #555;
+	background-color: #555;
+}
+
+
+nav a {
+	float: left;
+	margin-left: 0px;
+	line-height: 20px;
+	font-size: 23px;
+	margin-right: -2.4em;
+	text-decoration: none;
+	color: white;
+}
+
+
+nav a:hover {
+	text-decoration: underline; 
+	color: darkorange;
+	border: 1px solid darkorange;
+}
+
+
+h1 {
+	font-size: 70px;
+	margin-left: 150px;
+	padding-top: 35px;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+p {
+	font-size: 25px;
+}
+
+
+.footer {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+	grid-gap: 20px 500px;
+	margin-left: -100px;
+	width: 1170px;
+}
+  
+
+.footer-item {
+    text-align: center;
+	width: 350px;
+
+}
+
+
+.footer-item1 {
+	text-align: center;
+	width: 250px;
+}
+
+
+.mode-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+
+.block {
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+
+.block-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: transparent;
+    padding: 10px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-gap: 120px 500px;
+}
+  
+
+.block-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: span 2 ;
+    grid-row: span 2 ;
+}
+
+
+.light{
+    color: rgb(29, 29, 29);
+    background-color: #fff;
+    transition: ease-in-out .3s;
+}
+
+
+.dark {
+    color: #fff;
+    background-color: black;
+    box-shadow: 4px 4px 3px 3px white;
+    transition: ease-in-out .3s;
+}

@@ -1,0 +1,337 @@
+body {
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+section {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header {
+	background-color: darkOrange;
+	padding-top : 2px;
+	padding-bottom: 20px;
+}
+
+
+#container {
+	height: 270px;
+	margin-top: -50px;
+}
+
+
+nav {
+	width: 9%;
+	height: 222px;
+	float: right;
+	margin-top: -150px;
+	margin-right: 335px;
+	border: 5px solid #555;
+	background-color: #555;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+a:hover{
+text-decoration: underline;
+color: black;
+}
+
+
+nav a {
+	float: left;
+	margin-left: 0px;
+	line-height: 20px;
+	font-size: 23px;
+	margin-right: -2.4em;
+	text-decoration: none;
+	color: white;
+}
+
+
+nav a:hover {
+	text-decoration: underline; 
+	color: darkorange;
+	border: 1px solid darkorange;
+}
+
+
+h1 {
+	font-size: 70px;
+	max-width: 1000px;
+	margin-left: 150px;
+	padding-top: 35px;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+
+h3 {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+ 
+li {
+	font-size: 20px;
+}
+
+
+#scn1 {
+    position: relative;
+    margin-top: 120px;
+	margin-left: 20px;
+	z-index: 0;
+}
+
+
+#scn1 a:hover {
+    opacity: 0.6;
+}
+
+
+#text1 {
+    margin-left: 280px;
+	margin-top: -100px;	
+}
+
+
+#scn2 {
+    position: relative;
+    margin-top: 120px;
+	margin-left: 20px;
+	z-index: 0;
+}
+
+
+#scn2 a:hover {
+    opacity: 0.6;
+}
+
+
+#text2 {
+    margin-left: 280px;
+	margin-top: -110px;	
+}
+
+
+#scn3 {
+    position: relative;
+    margin-top: 120px;
+	margin-left: 20px;
+	z-index: 0;
+}
+
+
+#scn3 a:hover {
+    opacity: 0.6;
+}
+
+
+#text3 {
+    margin-left: 280px;
+	margin-top: -120px;	
+}
+
+
+#scn4 {
+    position: relative;
+    margin-top: 120px;
+	margin-left: 20px;
+	z-index: 0;
+}
+
+
+#scn4 a:hover {
+    opacity: 0.6;
+}
+
+
+#text4 {
+    margin-left: 280px;
+	margin-top: -110px;	
+}
+
+
+#scn5 {
+    position: relative;
+    margin-top: 120px;
+	margin-left: 20px;
+	z-index: 0;
+}
+
+
+#scn5 a:hover {
+    opacity: 0.6;
+}
+
+
+#text5 {
+    margin-left: 280px;
+	margin-top: -110px;	
+}
+
+
+#scn6 {
+    position: relative;
+    margin-top: 120px;
+	margin-left: 20px;
+	z-index: 0;
+}
+
+
+#scn6 a:hover {
+    opacity: 0.6;
+}
+
+
+#text6 {
+    margin-left: 280px;
+    margin-top: -130px;
+    padding-bottom: 30px;	
+}
+
+
+.body-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+	grid-gap: 20px 700px;
+	margin-left: -930px;
+	width: 1170px;
+}
+  
+
+.body-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+	width: 250px;
+	height: 340px;
+
+}
+
+
+.body-item1 {
+    padding: 20px;
+    font-size: 30px;
+	text-align: center;
+	width: 250px;
+	height: 340px;
+}
+
+.body-item2 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+	width: 250px;
+	height: 340px;
+}
+
+
+.body-item a:hover {
+	opacity: 0.6;
+}
+
+
+.body-item1 a:hover {
+	opacity: 0.6;
+}
+
+
+.body-item2 a:hover {
+	opacity: 0.6;
+}
+
+
+p {
+	font-size: 25px;
+}
+
+
+.footer {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+	grid-gap: 20px 700px;
+	margin-left: -100px;
+	width: 1170px;
+  }
+  
+
+.footer-item {
+    text-align: center;
+	width: 350px;
+
+}
+
+
+.footer-item1 {
+	text-align: center;
+	width: 250px;
+}
+
+
+.mode-button {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+  }
+  
+  
+  .block {
+	  color: white;
+	  align-items: center;
+	  text-align: center;
+  }
+  
+  
+  .block-container {
+	  display: inline-grid;
+	  grid-template-columns: auto auto auto auto;
+	  background-color: transparent;
+	  padding: 10px;
+	  grid-column-gap: 50px;
+	  grid-row-gap: 50px;
+	  grid-gap: 120px 500px;
+  }
+	
+  
+  .block-item {
+	  background-color: rgba(255, 255, 255, 0.8);
+	  border: 1px solid rgba(0, 0, 0, 0.8);
+	  padding: 20px;
+	  font-size: 30px;
+	  text-align: center;
+	  grid-column: span 2 ;
+	  grid-row: span 2 ;
+  }
+  
+  
+  .light{
+	  color: rgb(29, 29, 29);
+	  background-color: #fff;
+	  transition: ease-in-out .3s;
+  }
+  
+  
+  .dark {
+	  color: #fff;
+	  background-color: black;
+	  box-shadow: 4px 4px 3px 3px white;
+	  transition: ease-in-out .3s;
+  }
